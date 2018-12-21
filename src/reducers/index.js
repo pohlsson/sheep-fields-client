@@ -1,6 +1,6 @@
 import {combineReducers} from 'redux'
-import {sheepReducer as sheep} from 'reducers/sheepReducer';
+import sheepReducer from 'reducers/sheepReducer';
 
 export default combineReducers({
-  sheep,
+  sheepReducer,
 })

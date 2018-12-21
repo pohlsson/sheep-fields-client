@@ -1,8 +1,17 @@
+import {actionTypes as apiActionTypes} from "../actions/apiActions";
+
 const initialState = {};
 
-export const sheepReducer = (state = initialState, action) => {
+const sheepReducer = (state = initialState, action) => {
   switch (action.type) {
+    case apiActionTypes.GET_SHEEP_DONE:
+      return {
+        ...state,
+        sheep: action.payload,
+      };
     default:
-      return state
+      return state;
   }
 };
+
+export default sheepReducer;

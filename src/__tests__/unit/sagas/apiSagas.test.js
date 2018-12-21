@@ -9,16 +9,15 @@ describe('Api sagas', () => {
   it('should get sheep correctly', () => {
     const generator = getSheep();
     const expectedEndpoint = '/sheep';
-    const sheep = 'testSheep';
-
+    const response = {
+      body: 'testBody'
+    };
     expect(generator.next().value).toEqual(call(apiCalls.get, {
       url: apiUrl + expectedEndpoint,
     }));
-    expect(generator.next(sheep).value).toEqual(put({
+    expect(generator.next(response).value).toEqual(put({
       type: actionTypes.GET_SHEEP_DONE,
-      payload: {
-        sheep,
-      },
+      payload: response.body,
     }));
     expect(generator.next().done).toEqual(true);
   });

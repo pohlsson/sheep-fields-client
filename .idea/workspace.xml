@@ -2,23 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="087919ba-54ce-4797-b41c-7a2480c2c498" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/__tests__/unit/apiSagas.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/actions/apiActions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jsx/api/agent.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/sheepReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sagas/apiSagas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sagas/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/apiCalls.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__tests__/unit/actions/apiActions.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__tests__/unit/reducers/sheepReducer.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/__tests__/unit/apiSagas.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/__tests__/unit/sagas/apiSagas.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/sheepReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/sheepReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/apiCalls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/apiCalls.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,48 +32,12 @@
         </entry>
       </file>
       <file leaf-file-name="apiSagas.test.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/__tests__/unit/apiSagas.test.js">
+        <entry file="file://$PROJECT_DIR$/src/__tests__/unit/sagas/apiSagas.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="322">
+              <caret line="14" column="43" lean-forward="true" selection-end-line="26" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="agent.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/jsx/api/agent.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/reducers/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="30" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,17 +46,32 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sagas/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="65" />
+            <state relative-caret-position="161">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="apiSagas.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/reducers/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="apiSagas.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sagas/apiSagas.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            <state relative-caret-position="437">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
@@ -113,17 +82,29 @@
       <file leaf-file-name="apiActions.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/actions/apiActions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state>
+              <caret column="24" selection-start-column="13" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="apiCalls.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="apiActions.test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/__tests__/unit/actions/apiActions.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="828">
+              <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+              <folding>
+                <element signature="e#1#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="apiCalls.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/services/apiCalls.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+            <state relative-caret-position="460">
+              <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -131,8 +112,20 @@
       <file leaf-file-name="sheepReducer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/reducers/sheepReducer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+            <state relative-caret-position="368">
+              <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sheepReducer.test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/__tests__/unit/reducers/sheepReducer.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="621">
+              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#49#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -151,14 +144,17 @@
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/src/__tests__/unit/agent.test.js" />
         <option value="$PROJECT_DIR$/src/jsx/api/agent.jsx" />
-        <option value="$PROJECT_DIR$/src/reducers/sheepReducer.js" />
-        <option value="$PROJECT_DIR$/src/reducers/index.js" />
         <option value="$PROJECT_DIR$/src/actions/apiActions.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/services/apiCalls.js" />
         <option value="$PROJECT_DIR$/src/sagas/index.js" />
-        <option value="$PROJECT_DIR$/src/__tests__/unit/apiSagas.test.js" />
         <option value="$PROJECT_DIR$/src/sagas/apiSagas.js" />
+        <option value="$PROJECT_DIR$/src/__tests__/unit/apiSagas.test.js" />
+        <option value="$PROJECT_DIR$/src/__tests__/unit/apiCalls.test.js" />
+        <option value="$PROJECT_DIR$/src/__tests__/unit/actions/apiActions.test.js" />
+        <option value="$PROJECT_DIR$/src/reducers/index.js" />
+        <option value="$PROJECT_DIR$/src/reducers/sheepReducer.js" />
+        <option value="$PROJECT_DIR$/src/__tests__/unit/reducers/sheepReducer.test.js" />
+        <option value="$PROJECT_DIR$/src/services/apiCalls.js" />
       </list>
     </option>
   </component>
@@ -179,10 +175,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1" />
-    <option name="y" value="1273" />
-    <option name="width" value="1602" />
-    <option name="height" value="873" />
+    <option name="x" value="1599" />
+    <option name="width" value="1202" />
+    <option name="height" value="1920" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -218,6 +213,40 @@
               <item name="sheep-fields-client" type="b2602c69:ProjectViewProjectNode" />
               <item name="sheep-fields-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="__tests__" type="462c0819:PsiDirectoryNode" />
+              <item name="unit" type="462c0819:PsiDirectoryNode" />
+              <item name="actions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sheep-fields-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sheep-fields-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="__tests__" type="462c0819:PsiDirectoryNode" />
+              <item name="unit" type="462c0819:PsiDirectoryNode" />
+              <item name="reducers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sheep-fields-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sheep-fields-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="actions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sheep-fields-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sheep-fields-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="jsx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sheep-fields-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sheep-fields-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="reducers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sheep-fields-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sheep-fields-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sagas" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -244,11 +273,12 @@
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/__tests__/unit/sagas" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/services" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -263,21 +293,80 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Api sagas" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Jest.Sheep reducer">
+    <configuration name="Api actions.should create get sheep done action" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/__tests__/unit/actions/apiActions.test.js" />
+      <test-names>
+        <test-name value="Api actions" />
+        <test-name value="should create get sheep done action" />
+      </test-names>
+    </configuration>
+    <configuration name="Api actions.should create get sheep error action" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/__tests__/unit/actions/apiActions.test.js" />
+      <test-names>
+        <test-name value="Api actions" />
+        <test-name value="should create get sheep error action" />
+      </test-names>
+    </configuration>
+    <configuration name="Sheep reducer" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/src/__tests__/unit/apiSagas.test.js" />
+      <test-file value="$PROJECT_DIR$/src/__tests__/unit/reducers/sheepReducer.test.js" />
       <test-names>
-        <test-name value="Api sagas" />
+        <test-name value="Sheep reducer" />
       </test-names>
     </configuration>
+    <configuration name="Sheep reducer.should handle GET_SHEEP_DONE correctly" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/__tests__/unit/reducers/sheepReducer.test.js" />
+      <test-names>
+        <test-name value="Sheep reducer" />
+        <test-name value="should handle GET_SHEEP_DONE correctly" />
+      </test-names>
+    </configuration>
+    <configuration name="Sheep reducer.should return the initial state" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/__tests__/unit/reducers/sheepReducer.test.js" />
+      <test-names>
+        <test-name value="Sheep reducer" />
+        <test-name value="should return the initial state" />
+      </test-names>
+    </configuration>
+    <list>
+      <item itemvalue="Jest.Api actions.should create get sheep done action" />
+      <item itemvalue="Jest.Api actions.should create get sheep error action" />
+      <item itemvalue="Jest.Sheep reducer.should return the initial state" />
+      <item itemvalue="Jest.Sheep reducer.should handle GET_SHEEP_DONE correctly" />
+      <item itemvalue="Jest.Sheep reducer" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.Api sagas" />
+        <item itemvalue="Jest.Sheep reducer" />
+        <item itemvalue="Jest.Sheep reducer.should handle GET_SHEEP_DONE correctly" />
+        <item itemvalue="Jest.Sheep reducer.should return the initial state" />
+        <item itemvalue="Jest.Api actions.should create get sheep error action" />
+        <item itemvalue="Jest.Api actions.should create get sheep done action" />
       </list>
     </recent_temporary>
   </component>
@@ -293,42 +382,61 @@
       <updated>1544812154543</updated>
       <workItem from="1544812156928" duration="65000" />
       <workItem from="1544812241474" duration="481000" />
-      <workItem from="1545383495224" duration="7019000" />
+      <workItem from="1545383495224" duration="7300000" />
+      <workItem from="1545399048942" duration="2301000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Api_sagas - 2018.12.21 at 12h 46m 08s.xml">
-      <configuration name="Api sagas" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Sheep_reducer_should_handle_GET_SHEEP_DONE_correctly - 2018.12.21 at 15h 02m 58s.xml">
+      <configuration name="Sheep reducer.should handle GET_SHEEP_DONE correctly" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Api_sagas - 2018.12.21 at 12h 46m 57s.xml">
-      <configuration name="Api sagas" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Sheep_reducer_should_handle_GET_SHEEP_DONE_correctly - 2018.12.21 at 15h 03m 22s.xml">
+      <configuration name="Sheep reducer.should handle GET_SHEEP_DONE correctly" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Api_sagas - 2018.12.21 at 12h 48m 01s.xml">
-      <configuration name="Api sagas" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Sheep_reducer_should_handle_GET_SHEEP_DONE_correctly - 2018.12.21 at 15h 04m 11s.xml">
+      <configuration name="Sheep reducer.should handle GET_SHEEP_DONE correctly" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Api_sagas - 2018.12.21 at 12h 48m 37s.xml">
-      <configuration name="Api sagas" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Sheep_reducer_should_handle_GET_SHEEP_DONE_correctly - 2018.12.21 at 15h 04m 28s.xml">
+      <configuration name="Sheep reducer.should handle GET_SHEEP_DONE correctly" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Sheep_reducer_should_handle_GET_SHEEP_DONE_correctly - 2018.12.21 at 15h 05m 06s.xml">
+      <configuration name="Sheep reducer.should handle GET_SHEEP_DONE correctly" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Sheep_reducer_should_handle_GET_SHEEP_DONE_correctly - 2018.12.21 at 15h 05m 20s.xml">
+      <configuration name="Sheep reducer.should handle GET_SHEEP_DONE correctly" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Sheep_reducer_should_handle_GET_SHEEP_DONE_correctly - 2018.12.21 at 15h 05m 33s.xml">
+      <configuration name="Sheep reducer.should handle GET_SHEEP_DONE correctly" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Sheep_reducer_should_handle_GET_SHEEP_DONE_correctly - 2018.12.21 at 15h 06m 21s.xml">
+      <configuration name="Sheep reducer.should handle GET_SHEEP_DONE correctly" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Sheep_reducer_should_handle_GET_SHEEP_DONE_correctly - 2018.12.21 at 15h 07m 04s.xml">
+      <configuration name="Sheep reducer.should handle GET_SHEEP_DONE correctly" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Sheep_reducer - 2018.12.21 at 15h 07m 39s.xml">
+      <configuration name="Sheep reducer" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7565000" />
+    <option name="totallyTimeSpent" value="10147000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="1273" width="1602" height="873" extended-state="6" />
+    <frame x="1599" y="0" width="1202" height="1920" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18642993" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18606627" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3288364" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329235" />
+      <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3288364" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32715008" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.26587972" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.26639345" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -346,10 +454,92 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/__tests__/unit/sagas/apiSagas.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jsx/api/agent.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sagas/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/apiActions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/apiCalls.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/sheepReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sagas/apiSagas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -378,9 +568,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -393,10 +580,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/jsx/api/agent.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
+        <state relative-caret-position="345">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/__tests__/unit/apiCalls.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/__tests__/unit/sagas/apiSagas.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="43" lean-forward="true" selection-end-line="26" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sagas/apiSagas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sagas/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -410,69 +641,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/reducers/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="30" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="30" />
+        <state relative-caret-position="115">
+          <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#37#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/sheepReducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/actions/apiActions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state>
+          <caret column="24" selection-start-column="13" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
+    <entry file="file://$PROJECT_DIR$/src/reducers/sheepReducer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="368">
+          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/__tests__/unit/reducers/sheepReducer.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#49#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sagas/index.js">
+    <entry file="file://$PROJECT_DIR$/src/__tests__/unit/actions/apiActions.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/__tests__/unit/apiSagas.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="828">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
           <folding>
-            <element signature="e#0#45#0" expanded="true" />
+            <element signature="e#1#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/services/apiCalls.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sagas/apiSagas.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="460">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
         </state>
       </provider>
     </entry>
